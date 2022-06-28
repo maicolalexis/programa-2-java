@@ -1,19 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ 
+/******************************************************
+***                                                 ***
+***   CLASE GETYSET                                 ***
+***   Esta clase contiene los metodos get y set     ***
+***                                                 ***
+*******************************************************/
+
 package assignment2;
 
 /**
  *
- * @author SENA
+ * @author Michael Alexis Villa Gaviria
  */
-
 //metodo que cuenta los set que contiene cada archivo
 public class GetYSet {
-    int contadorM, contador, contadorClases, contadorC, contadorV, contadorCorchetes, contadorSetyGet = 0;
-    
+
+    private int contadorM, contador, contadorClases, contadorC, contadorV, contadorCorchetes, contadorSetyGet, contadorpyl = 0;
+
     public GetYSet() {
     }
 
@@ -24,7 +27,7 @@ public class GetYSet {
     public void setContadorSetyGet(int contadorSetyGet) {
         this.contadorSetyGet = contadorSetyGet;
     }
-    
+
     public int getContadorM() {
         return contadorM;
     }
@@ -72,5 +75,13 @@ public class GetYSet {
     public void setContadorCorchetes(int contadorCorchetes) {
         this.contadorCorchetes = contadorCorchetes;
     }
-    
+
+    public int getContadorpyl() {
+        return contadorpyl;
+    }
+
+    public void setContadorpyl(int contadorpyl) {
+        this.contadorpyl = contadorpyl;
+    }
+
 }
