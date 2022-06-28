@@ -24,12 +24,13 @@ package assignment2;
 public class Main {
 
     public static void main(String[] args) {
-        GetYSet gs = new GetYSet();
         Operacion op = new Operacion();
-        //op.LeerText("C:\\xampp\\htdocs\\assignment2\\src\\assignment2\\Operacion.java");
-        //op.LeerText("C:\\xampp\\htdocs\\assignment2\\src\\assignment2\\Main.java");
-       
-        op.LeerText("C:\\xampp\\htdocs\\assignment2\\src\\assignment2\\GetYSet.java");
-        op .mostrar();
+        op.LeerText("C:\\xampp\\htdocs\\programa-2-java\\src\\assignment2\\Main.java");
+        op.mostrar();
+        op.LeerText("C:\\xampp\\htdocs\\programa-2-java\\src\\assignment2\\Contador.java");
+        
+        op.LeerText("C:\\xampp\\htdocs\\programa-2-java\\src\\assignment2\\Operacion.java");
+        
+        
     }
 }

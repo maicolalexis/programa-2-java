@@ -16,7 +16,7 @@ import java.io.FileReader;
  */
 public class Operacion {
 
-    GetYSet cs = new GetYSet();
+    Contador cs = new Contador();
     int contador1, contador2, contador3, contador4, contador5, contador6, contador7, contador8 = 0;
     String texto = "";
 
@@ -132,7 +132,7 @@ public class Operacion {
                 || archivo.startsWith("public char get")
                 || archivo.startsWith("public static get")
                 || archivo.startsWith("this")
-                || archivo.startsWith("return")){
+                || archivo.startsWith("return")) {
             contador7++;
             cs.setContadorSetyGet(contador7);
         }
